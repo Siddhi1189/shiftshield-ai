@@ -77,15 +77,78 @@ ShiftShield AI leverages AI across multiple layers:
 
 ---
 
+## 🛡️ Adversarial Defense & Anti-Spoofing Strategy  
+
+To prevent large-scale fraud such as GPS spoofing attacks, ShiftShield AI incorporates a multi-layered anti-spoofing strategy.
+
+### 1. Differentiation: Real vs Fake Workers  
+
+Our system uses behavioral and contextual signals to differentiate between:
+
+- Genuine workers affected by disruptions  
+- Malicious users spoofing their location  
+
+Instead of relying only on GPS, we analyze:
+
+- Movement patterns (continuous vs static location)  
+- Speed and route consistency  
+- Historical work activity  
+
+This allows the system to detect unnatural or suspicious patterns.
+
+---
+
+### 2. Data Beyond GPS  
+
+To detect coordinated fraud, the system analyzes multiple data sources:
+
+- Delivery activity logs (orders completed)  
+- App usage patterns (active vs idle)  
+- Device signals (sensor data, motion patterns)  
+- Network data (IP consistency, location mismatch)  
+- External data (weather severity vs user behavior)  
+
+By combining these signals, the system can identify fake claims with higher accuracy.
+
+---
+
+### 3. UX Balance (Fairness for Honest Workers)  
+
+We ensure that fraud detection does not negatively impact genuine users:
+
+- Suspicious claims are flagged, not immediately rejected  
+- Users can be asked for lightweight verification  
+- Partial payouts can be issued during verification  
+- System uses confidence scores instead of strict rejection  
+
+This ensures fairness while maintaining system security.
+
+---
+
+### 🧠 Key Insight  
+
+ShiftShield AI moves beyond simple GPS-based validation and uses **AI-driven behavioral analysis** to ensure secure, reliable, and fraud-resistant insurance payouts.
+
+---
+
 ## 📊 Parametric Triggers  
 
 Claims are automatically triggered when predefined conditions are met:
 
 ---
 
+```
+Rainfall > 100mm  
+AQI > 300  
+Flood alert issued  
+Traffic shutdown detected  
+```
+
+---
+
 ## 💰 Weekly Pricing Model  
 
-Designed for gig worker's weekly earnings cycle:
+Designed for gig workers' weekly earnings cycle:
 
 | Risk Level | Premium |
 |-----------|---------|
