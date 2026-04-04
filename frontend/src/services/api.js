@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://shiftshield-backend.onrender.com/";
+const BASE_URL = "https://shiftshield-backend.onrender.com";
 
 // 🔹 Risk
 export const getRisk = (rainfall, aqi) =>
