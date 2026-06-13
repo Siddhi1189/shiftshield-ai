@@ -205,7 +205,7 @@ shiftshield-ai/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/shiftshield-ai.git
+git clone https://github.com/Siddhi1189/shiftshield-ai.git
 cd shiftshield-ai
 ```
 
@@ -253,14 +253,14 @@ npm run build
 
 Set environment variable in Vercel dashboard:
 ```
-VITE_API_URL=https://your-backend.onrender.com
+VITE_API_URL=https://shiftshield-backend.onrender.com
 ```
 
 ### Backend → Render
 - Set **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port 10000`
 - Add environment variable:
 ```
-ALLOWED_ORIGINS=https://your-frontend.vercel.app
+ALLOWED_ORIGINS=https://shiftshield-ai.vercel.app,http://localhost:5173
 ```
 
 ---
